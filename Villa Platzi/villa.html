@@ -3,9 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title> Villa platzi</title>
+
+    <style>
+      body{
+        position: relative;
+      }
+      #cerdoMove{
+        position: absolute;
+        left: 0;
+        z-index: 2;
+      }
+    </style>
   </head>
   <body>
     <canvas id="villaplatzi" width="500" height="500"></canvas>
+    <canvas id="cerdoMove" width="500" height="500"></canvas>
 <script src="platzi.js"></script>
 
   </body>
